@@ -1,6 +1,10 @@
 /* Custom Prop */
 :root{
-  
+  --bg-color: #effafa;
+  --breaker-bay-color: #5ca5a5;
+  --block-color: #2b3939;
+  --blue-smoke: #7c8f8f;
+
 }
 
 /* GLOBAL STYLES */
@@ -39,9 +43,9 @@ img{
 /* CONTAINER*/
 .container{
   width: 100%;
-  max-width: 1200px;
-  padding-left: 50px;
-  padding-right: 50px;
+  max-width: 1366px;
+  padding-left: 128px;
+  padding-right: 128px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -49,4 +53,113 @@ img{
 /* MAIN CONTENT */
 .main-content{
   flex-grow: 1;
+}
+
+.job__list_wrapper {
+}
+
+.job__list_header {
+  width: 1336px;
+  height: 156px;
+  padding: 0;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: url(/icons/header-bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  content:"";
+}
+
+.job__list_mainsection {
+  padding-top: 76px;
+  padding-bottom: 120px;
+}
+
+.job__list_item {
+  display: flex;
+  align-items: center;
+  padding: 32px 40px;
+}
+.item__img {
+  width: 88px;
+  height: 88px;
+  padding: 0;
+  margin: 0;
+  object-fit: cover;
+  margin-right: 24px;
+  border-radius: 50%;
+}
+
+.item__status {
+  width: 265px;
+  padding: 0;
+  margin: 0;
+}
+.item__nickname {
+  margin-right: 24px;
+  font-family: "Spartan" sans-serif;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 700;
+  color: var(--breaker-bay-color);
+
+}
+.item__new {
+  padding: 6px 8px;
+  margin-right: 24px;
+  font-size: 11px;
+  font-weight: 700;
+  font-family: "Spartan" sans-serif;
+  color: #fff;
+  border-radius: 12px;
+  background-color: var(--breaker-bay-color);
+}
+.item__feature {
+  padding: 6px 8px;
+  font-size: 11px;
+  font-weight: 700;
+  background-color: var(--block-color);
+  color: #fff;
+  border-radius: 12px;
+}
+.item__title {
+  padding: 0;
+  padding-top: 12px;
+  padding-bottom: 8px;
+  margin: 0;
+  font-size: 18px;
+  font-family: "Spartan" sans-serif;
+  font-weight: 700;
+  color: var(--block-color);
+}
+.working__condition_list {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.working-condition-info{
+  padding: 0;
+  margin: 0;
+  margin-right: 16px;
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--blue-smoke);
+
+}
+
+.user__last_seen {
+  list-style: none;
+}
+
+.user__work_place {
+}
+.user__language_skills {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.user__laguage_skills-item {
 }
