@@ -114,6 +114,7 @@ img{
   color: #fff;
   border-radius: 12px;
   background-color: var(--breaker-bay-color);
+  text-transform: uppercase;
 }
 .item__feature {
   padding: 6px 8px;
@@ -122,6 +123,7 @@ img{
   background-color: var(--block-color);
   color: #fff;
   border-radius: 12px;
+  text-transform: uppercase;
 }
 .item__title {
   padding: 0;
@@ -140,19 +142,32 @@ img{
   margin: 0;
 }
 
+.working__condition_list:not(:first-child){
+
+}
+
 .working-condition-info{
   padding: 0;
   margin: 0;
-  margin-right: 16px;
   font-size: 15px;
   font-weight: 500;
   color: var(--blue-smoke);
 
 }
 
+.working-condition-info:not(:last-child){
+  margin-right: 36px;
+}
+
+
 .user__last_seen {
   list-style: none;
 }
+
+.user__work_time{
+
+}
+
 
 .user__work_place {
 }
@@ -162,4 +177,24 @@ img{
   margin-left: auto;
 }
 .user__laguage_skills-item {
+  list-style: none;
+  padding: 4px 8px;
+  font-family: "Spartan" sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 700;
+  color: var(--breaker-bay-color);
+  background-color: var(--bg-color);
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+.user__language_skill-link{
+  object-fit: cover;
+text-decoration: none;
+color: var(--breaker-bay-color);
+}
+
+.user__laguage_skills-item:not(:last-child){
+  margin-right: 16px;
 }
