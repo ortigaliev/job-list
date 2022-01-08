@@ -189,10 +189,10 @@ img{
   object-fit: cover;
 }
 
-.user__language_skill-link{
+.user__laguage_skills-link{
   object-fit: cover;
-text-decoration: none;
-color: var(--breaker-bay-color);
+  text-decoration: none;
+  color: var(--breaker-bay-color);
 }
 
 .user__laguage_skills-item:not(:last-child){
